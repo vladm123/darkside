@@ -1,3 +1,165 @@
-body {
-	background-color: #2e3243‏ !important;
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("app.debitoor.com") {
+
+  body {
+    background-color: #2e3243 !important;
+  }
+  
+  #content {
+    background-color: transparent !important;
+  }
+  
+  .site-container {
+    background-color: transparent;
+  }
+  
+  .main {
+    background-color: transparent !important;
+  }
+  
+  .main-gutter {
+    background-color: transparent !important;
+  }
+  
+  .nav-wrap {
+    background-color: #2e3243;
+    border-right: 1px solid #3b3f53 !important;
+  }
+  
+  .highcharts-background {
+    background-color: #2e3243 !important;
+  }
+  
+  /* Dashboard */
+  .promo-invoice-designer {
+    display: none !important;
+  }
+  
+  .dashboard-knowledge .knowledge-entry .icon-medium, .dashboard-knowledge .knowledge-entry .icon-full-width {
+    border: 1px solid #4c516b;
+  }
+  
+  .dashboard-page .dashboard-connect-item {
+    border: 1px solid #4c516b;
+  }
+  
+  .icn-svg-promote-dismiss {
+    background-position: 0 0;
+    background-image: url("http://media.mocku.ps/mockups/images/e39a14144a1eb09ba3cd4f4b1cf345d5a3c4ffbd.png?1409735497");
+  }
+  
+  
+  /* Navigation */
+  .nav-lnk:hover, .nav-lnk.current {
+    color: #FFFFFF;
+    background-color: transparent;
+    font-weight: 600;
+  }
+  
+  .nav-lnk {
+    color: #afb4cd;
+    font-size: 14px;
+  }
+  
+  .icn-svg-logo-black {
+    background-position: 0 -1009px;
+  }
+  
+  /* Top Bar */
+  .md-view-notif-bar-accountInfo, .md-view-notif-bar-trialInfo {
+    background-color: #1f2332;
+    padding: 3px;
+  }
+  
+  .md-view-notif-bar-accountInfo, .md-view-notif-bar-trialInfo {
+    color: #bcc1d8;
+    border-bottom: 0px;
+  }
+  
+  .md-view-notif-bar-accountInfo .action-link, .md-view-notif-bar-trialInfo .action-link {
+    color: #FFFFFF;
+  }
+  
+  /* Text */
+  .dashboard-page .dashboard-subtitle {
+    color: #FFF;
+  }
+  
+  .dashboard-page {
+    color: #bcc1d8;
+  }
+  
+  .dashboard-knowledge .entry-title {
+    color: #bcc1d8;
+  }
+  
+  /* Buttons */
+  .btn-blue-sky {
+    box-shadow: none;
+    background-color: #40b1d0;
+    border: none;
+  }
+  
+  .btn-blue-sky:hover, .btn-blue-sky:active, .btn-blue-sky:focus {
+    box-shadow: none;
+    border: none;
+  }
+  
+  /* Invoices Page */
+  .tabPanel .tab, .archived-tab {
+    border: 1px solid #4c516b;
+    color: #bcc1d8;
+  }
+  
+  .tabPanel .tab:hover, .tabPanel .active, .tabPanel .tab:active, .archived-tab:hover {
+    background-color: #3b3f53;
+  }
+  
+  .tabPanel .tab:hover .tabTitle, .tabPanel .active .tabTitle {
+    color: #FFFFFF;
+  }
+  
+  .tab .tabData {
+    border: 1px solid #4c516b;
+    background-color: #2e3243;
+  }
+  
+  .tabPanel .tab:hover .tabData, .tabPanel .active .tabData {
+    border: 1px solid #4c516b;
+    background-color: #2e3243;
+    color: #bcc1d8;
+  }
+  
+  .sort-active {
+    color: #FFFFFF;
+  }
+  
+  .lst-head {
+    border-bottom: 1px solid #3b3f53;
+  }
+  
+  /*Invoices List */
+  .lst-row, .empty-lst-row.lst-row:hover {
+    background-color: transparent;
+    border-bottom: 1px solid #3b3f53;
+    color: #FFFFFF;
+  }
+  
+  .lst-row:hover {
+    background-color: #3b3f53;
+    color: #FFFFFF;
+  }
+  
+  /* Buttons */
+  .btn-light-grey {
+    border: 1px solid #4c516b;
+    background-color: #3b3f53 !important;
+  }
+  
+  .btn-light-grey:hover, btn-light-grey:active, .btn-light-grey:focus {
+    border: 1px solid #4c516b;
+    background-color: #454961 !important;
+    box-shadow: none;
+  }
 }
