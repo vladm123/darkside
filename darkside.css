@@ -218,6 +218,161 @@
 	background-color: #6a7082;
 }
 
+.dark-theme .textInput {
+	background-color: #6a7082 !important;
+	border:0 !important;
+	color: #fff !important;
+	box-shadow: none !important;
+}
+
+.dark-theme .bar-error {
+	color: #fff;
+	background-color: #f60;
+}
+
+.dark-theme .bar-notification {
+	color: #fff;
+	background-color: #7BDF5A;
+}
+
+.dark-theme textarea {
+	background-color: #6a7082;
+	border: 1px solid #5b5f73;
+	color: #fff;
+}
+
+.dark-theme .chzn-container-single .chzn-single {
+	background-color: #6a7082;
+	border: 1px solid #5b5f73;
+	color: #fff;
+}
+
+.dark-theme .dropdown-menu.more-menu {
+	background-color: #EAEDF1;
+	border: 1px solid #5b5f73;
+	color: #000;
+}
+
+.dark-theme .dropdown-menu.more-menu a {
+	color: #000 !important;
+	text-decoration: none;
+}
+
+.dark-theme .dropdown-menu.more-menu a {
+	text-decoration: none !important;
+}
+
+.dark-theme .modal.modal-send {
+	background-color: #2e3243 !important;
+	border: 1px solid #5f5f70;
+}
+
+.dark-theme .modal-header {
+	background-color: #2e3243 !important;
+	border-bottom: 1px solid #5f5f70;
+}
+
+.dark-theme .content.clearfix {
+	background-color: #2e3243 !important;
+}
+
+.dark-theme .date-picker-wrapper {
+	background-color: transparent !important;
+	border-left: 1px solid #6a7082;
+}
+
+.dark-theme .lastCell.send-form-col {
+	border-left: 1px solid #6a7082;
+}
+
+.dark-theme .modal-title {
+	color: #fff !important;
+}
+
+.dark-theme .modal-close {
+	background-color: #6a7082;
+	color: #fff;
+}
+
+.dark-theme .title-bar-secondary-title {
+	color: #fff;
+}
+
+.dark-theme .title-bar-heading {
+	color: #fff;
+}
+
+.dark-theme .invoice-status-title {
+	color: #fff;
+}
+
+.dark-theme .invoice-area-title {
+	text-transform: uppercase;
+	background: #5f5f70;
+}
+
+.dark-theme .invoice-area-title span {
+	color: #fff;
+	text-transform: uppercase;
+	background: transparent;
+}
+
+.dark-theme .ui-autocomplete {
+	background-color: #6a7082;
+	border: 1px solid #5b5f73;
+	color: #fff;
+}
+
+.dark-theme .chzn-container-single .chzn-single:hover {
+	text-decoration: none !important;
+}
+
+.dark-theme .active-result.highlighted {
+	background-color: #8a90a2;
+	color: #fff;
+}
+
+.dark-theme .chzn-search {
+	background-color: #8a90a2;
+}
+
+.dark-theme .no-results {
+	background-color: #8a90a2 !important;
+	color: #fff;
+}
+
+.dark-theme .chzn-search input {
+	background-color: #8a90a2;
+	background-image: none;
+	border: 1px solid #5b5f73;
+	color: #fff;
+}
+
+.dark-theme .chzn-drop {
+	background-color: #6a7082;
+	color: #fff;
+}
+
+.dark-theme .autocomplete {
+	border: 1px solid #5b5f73;
+}
+
+.dark-theme label{
+	color: #bcc1d8;
+}
+
+.dark-theme .invoice-areas-container {
+	border: 2px dashed #3b3f53;
+}
+
+.dark-theme .invoice-area {
+	border-bottom: 2px dashed #3b3f53;
+}
+
+.dark-theme .ui-button-icon {
+	background-color: #6a7082;
+}
+
 .theme-switcher ul {
 	padding-left: 0px;
 }
