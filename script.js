@@ -19,7 +19,7 @@ if (window.location.origin == 'http://debitoor-app.staging.e-conomic.ws' && type
 				$('svg > rect.highcharts-background').attr('fill', isDark ? '#4c516b' : '#FFFFFF');
 				$('svg path[fill=none]').attr('stroke', isDark ? '#6c718b' : '#CFCFCF');
 				$('svg g text').css('fill', isDark ? '#acb1cb' : "rgb(146, 146, 146)");
-			}, 300);
+			}, 500);
 		}
 
 		toggleTheme(localStorage.getItem('isDark') === 'true');
