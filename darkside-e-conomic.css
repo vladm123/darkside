@@ -71,11 +71,6 @@ h1, h2, h3, h4, h5, h6 {
 	border-left: 1px solid #888;
 }
 
-input:focus {
-	background-color: #aaa;
-	color: #fff;
-}
-
 .btn.btn--primary {
 	box-shadow: none !important;
 }
@@ -195,6 +190,42 @@ input:focus {
 
 .topnav__menu__btn.topnav__menu--second__btn--user {
 
+}
+
+.invoice__head__col__title, .panel label, .form__ctrl__title, .cLabel {
+	text-shadow: none;
+	color: #999;
+}
+
+.btn.btn--lookup:hover {
+	background-color: #999;
+}
+
+.btn.btn--lookup {
+	background-color: #999;
+	border-left: #666;
+}
+
+.select2-container.chzn-select, .select2-container.chzn-select a {
+	background-color: #999;
+	border: 0;
+}
+
+.select2-drop.select2-drop-active {
+	background-color: #999;
+	border: 0;
+}
+
+input {
+	background-color: #999;
+	border: 0;
+	color: #fff;
+}
+
+input:focus {
+	background-color: #aaa;
+	border: 0;
+	color: #fff;
 }
 
 .header {
