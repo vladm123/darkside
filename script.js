@@ -2,8 +2,6 @@ console.log('origin', window.location.origin);
 if (window.location.origin == 'http://debitoor-app.staging.e-conomic.ws' && typeof jQuery !== undefined) {
 	jQuery(document).ready(function() {
 
-		console.log('JQUERY works!!!111one', jQuery.fn.jquery);
-		
 		var $switcher = $('<div class="theme-switcher"><ul><li class="white"><div/></li><li class="dark"><div/></li></ul></div>');
 		$switcher.on('click', 'li', function(e) {
 			toggleTheme($(e.target).closest('li').hasClass('dark'));
@@ -11,7 +9,6 @@ if (window.location.origin == 'http://debitoor-app.staging.e-conomic.ws' && type
 		$('body').append($switcher);
 
 		function toggleTheme(isDark) {
-			console.log('toggling theme to isDark?' + isDark)
 			isDark = isDark || false;
 			localStorage.setItem('isDark', isDark);
 			$('body').toggleClass('dark-theme', isDark);
@@ -24,4 +21,22 @@ if (window.location.origin == 'http://debitoor-app.staging.e-conomic.ws' && type
 
 		toggleTheme(localStorage.getItem('isDark') === 'true');
 	});
+
+	setTimeout(function() {
+		var message = 'Tired of accounting?';
+		var options = {
+			autoclose: false,
+			action: openFlappyBird,
+			link: 'try this out!'
+		};
+		sba.shared.NotificationCenter.getDefaultCenter().accountInfo(message, options);
+	}, 200);
+
+	function openFlappyBird() {
+		var $flappy = $('<div class="flappy-wrapper"><iframe src="http://ghaiklor.github.io/flappy-bird" width="950px" height="550px"></iframe><div class="close">X</div></div>');
+		$flappy.find('.close').click(function() {
+			$flappy.remove();
+		});
+		$('body').append($flappy);
+	}
 }
