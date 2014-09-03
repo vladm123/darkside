@@ -1,1 +1,210 @@
-body {background-color: red}
+body {
+	background-color: #000
+}
+
+#border {
+	background-color: #000
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #fff;
+}
+
+.table-page, .header-container {
+	background-color: #000
+}
+
+.btn.btn--row-action {
+	background-color: #999;
+	color: #fff;
+	border: 0 !important;
+}
+
+.btn.btn--row-action:focus {
+	background-color: #aaa;
+	color: #fff;
+	border: 0 !important;
+}
+
+.btn.btn--row-action * {
+	color: #fff;
+	text-shadow: none;
+}
+
+.total {
+	color: #fff;
+}
+
+.btn--row-action {
+	box-shadow: none !important;
+}
+
+.btn ~ .btn--dd .btn__dd-itm {
+	background-color: #999;
+	color: #fff;
+	border: 0 !important;
+}
+
+.btn ~ .btn--dd .btn__dd-itm:hover {
+	background-color: #aaa;
+	color: #fff;
+	border: 0 !important;
+}
+
+.btn.btn--external {
+	background-color: #999;
+	color: #fff;
+	border: 0 !important;
+	box-shadow: none !important;
+}
+
+.search-box-query {
+	background-color: #999;
+	color: #fff;
+	border: 0 !important;
+	box-shadow: none !important;
+}
+
+.btn--submit-search {
+	background-color: #999;
+	color: #fff;
+	border-left: 1px solid #888;
+}
+
+input:focus {
+	background-color: #aaa;
+	color: #fff;
+}
+
+.btn.btn--primary {
+	box-shadow: none !important;
+}
+
+.header__details {
+	background-color: #000;
+}
+
+.btn--cash-reports__lbl {
+	color: #fff;
+}
+
+.btn--cash-reports__lbl:hover {
+	color: #fff;
+}
+
+.pagination-button {
+	background-color: #999 !important;
+	color: #fff !important;
+	border: 0 !important;
+	box-shadow: none !important;
+}
+
+.showing {
+	color: #999 !important;
+}
+
+.header__details__cell__line.header__details__cell__line--val {
+	color: #ccc !important;
+}
+
+.select2-container.js-select2 a {
+	background-color: #999 !important;
+	color: #fff !important;
+	box-shadow: none !important;
+	border: 0 !important;
+}
+
+.colheader.list__row.list__row--head {
+	background-color: #000;
+}
+
+.btn.btn--list-head {
+	background-color: #000 !important;
+	color: #fff !important;
+	border: 0 !important;
+	box-shadow: none !important;
+	border-bottom: 1px solid #666;
+}
+
+.btn.btn--list-head .colheader a {
+	color: #fff !important;
+}
+
+.colheader a {
+	color: #fff !important;
+}
+
+.list__row.row {
+	border-top: 1px solid #333;
+}
+
+.list__row.row.active.list__row--active {
+	background-color: #000 !important;
+	color: #999 !important;
+	border: 0 !important;
+	box-shadow: none !important;
+	border-bottom: 0;
+	border-top: 1px solid #333;
+}
+
+.colheader.list__row.list__row--head {
+	border-bottom: 1px solid #333;
+}
+
+.list__row {
+	border-bottom: 0;
+	border-top: 1px solid #333;
+}
+
+.list__row:hover td, .row:hover td, .row.active:hover td {
+	background-color: #333;
+}
+
+
+.list__row--head, .list__row--head:hover {
+	border-width: 1px;
+}
+
+.content2.list.sortable {
+	color: #999;
+}
+
+.submenu__section {
+	color: #fff;
+	background-color: #222;
+}
+
+.submenu__section__link.selected {
+	color: #fff;
+	background-color: #444;
+}
+
+.submenu__section__link:hover {
+	color: #fff;
+	background-color: #555;
+}
+
+.subnav.submenu__section__items.submenu-section-items {
+	color: #fff;
+	background-color: #333;
+}
+
+.submenu__section--active .submenu__section__title {
+	color: rgb(131, 148, 161);
+}
+
+.topnav__menu__btn.topnav__menu--second__btn--user {
+
+}
+
+.header {
+	background-color: #222;
+}
+
+a {
+	color: #ccc;
+}
+
+tbody {
+	border: 0;
+}
