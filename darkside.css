@@ -1,7 +1,5 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document domain("app.debitoor.com") {
-
   body {
     background-color: #2e3243 !important;
   }
@@ -162,4 +160,3 @@
     background-color: #454961 !important;
     box-shadow: none;
   }
-}
