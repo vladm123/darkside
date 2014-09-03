@@ -79,6 +79,42 @@
     color: #FFFFFF;
   }
   
+  .btn.btn-prim {
+	background-color: #40b1d0;
+	border: none;
+	color: #fff;
+  }
+  
+  a:not(.btn) {
+    color: #fff !important;
+    text-decoration: none !important;
+  }
+  
+  a:not(.btn):hover {
+    color: #fff !important;
+    text-decoration: underline !important;
+  }
+  
+  .btn:hover {
+    box-shadow: 0 2px 2px #1e2233;
+  }
+  
+  svg rect {
+    fill: #f00;
+  }
+  
+  .action a {
+    text-decoration: none !important;   
+  }
+  
+  .md-view-notif-bar-accountInfo .action-link, .md-view-notif-bar-trialInfo .action-link {
+    text-decoration: none;
+  }
+  
+  .md-view-notif-bar-accountInfo .action-link:hover, .md-view-notif-bar-trialInfo .action-link:hover {
+    text-decoration: underline;
+  }
+  
   /* Text */
   .dashboard-page .dashboard-subtitle {
     color: #FFF;
