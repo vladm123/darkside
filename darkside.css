@@ -1,7 +1,13 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
+  html.dark-theme {
+    background-color: #2e3243 !important;
+    min-height:100%;
+  }
+  
   body.dark-theme {
     background-color: #2e3243 !important;
+    min-height:100%;
   }
 
   .dark-theme #content {
