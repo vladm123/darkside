@@ -155,8 +155,44 @@
     background-color: #3b3f53 !important;
   }
   
-  .btn-light-grey:hover, btn-light-grey:active, .btn-light-grey:focus {
+  .btn-light-grey:hover, .btn-light-grey:active, .btn-light-grey:focus {
     border: 1px solid #4c516b;
     background-color: #454961 !important;
     box-shadow: none;
   }
+
+.theme-switcher {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 50px;
+	width: 80px;
+	background-color: #6a7082;
+	z-index: 80;
+	padding-left: 10px;
+}
+
+.theme-switcher ul {
+	padding-left: 0px;
+}
+
+.theme-switcher li {
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.theme-switcher li div{
+	border: 1px solid white;
+	width: 20px;
+	height: 20px;
+}
+
+.theme-switcher li.white div{
+	background-color: white;
+	z-index: 81;
+}
+
+.theme-switcher li.dark div {
+	background-color: #1f2332;
+	z-index: 81;
+}
