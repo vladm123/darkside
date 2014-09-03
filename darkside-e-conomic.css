@@ -228,8 +228,88 @@ input:focus {
 	color: #fff;
 }
 
+.pie-container {
+	opacity:0;
+}
+
+.widget-receipts {
+	border-left: 3px solid #111;
+}
+
+.headline.widget-split, .grid-row.clearfix {
+	background-color: #000;
+}
+
+.table-light tr {
+	border-bottom: 1px solid #111;
+}
+
+#grid > .inner {
+	border-right: 3px solid #111;
+}
+
+.widget.unpaid-invoices h2 {
+	color: #ccc;
+}
+
+.grid-row {
+	border-bottom: 3px solid #111;
+}
+
+#grid.grid {
+	background-color: #000;
+}
+
+.widget {
+	background-color: #333;
+}
+
+li.active {
+	background-color: #333 !important;
+}
+
+.totals-list .overdue-old:hover, .totals-list .not-due:hover {
+	background-color: #000;
+}
+
+.unpaid-invoices-color-coding .overdue-old:hover, .unpaid-invoices-color-coding .not-due:hover {
+	background-color: #333;
+}
+
+.widget.widget-chat {
+	background-color: #333;
+}
+
+.widget .title {
+	color: #ccc;
+}
+
+.widget.widget-chat .inner .description {
+	color: #999;
+}
+
+.widget.unpaid-invoices {
+	height: 256px;
+}
+
+li.selected.all::before, li.selected.all::after {
+	display: none;
+}
+
+.column.half.border-left.pull-right {
+	border: 0;
+}
+
 .header {
-	background-color: #222;
+	background-color: #333;
+}
+
+.topnav__menu__btn.topnav__menu--second__btn--user {
+	background-color: #333;
+}
+
+.topnav__menu__btn.topnav__menu--primary__btn.topnav__tab.topnav__tab--active {
+	background-color: #444;
 }
 
 a {
