@@ -1,4 +1,4 @@
-if (window.location.origin == 'https://app.debitoor.com') {
+if ($) {
 	$(document).ready(function() {
 		console.log('JQUERY works!!!111one');
 	});
