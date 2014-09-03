@@ -1,9 +1,8 @@
 	var head = document.head;
 	var link = document.createElement('link');
 
-	link.type = 'text/css';
 	link.rel = 'stylesheet';
-	link.href = 'https://raw.githubusercontent.com/vladm123/darkside/master/darkside.css';
+	link.href = 'https://rawgit.com/vladm123/darkside/master/darkside.css';
 	
 	head.appendChild(link);
 
