@@ -27,7 +27,7 @@ if (window.location.origin == 'http://debitoor-app.staging.e-conomic.ws' && type
 		var options = {
 			autoclose: false,
 			action: openFlappyBird,
-			link: 'try this out!'
+			link: 'Try this out!'
 		};
 		sba.shared.NotificationCenter.getDefaultCenter().accountInfo(message, options);
 	}, 200);
