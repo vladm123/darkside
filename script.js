@@ -1,5 +1,5 @@
 console.log('origin', window.location.origin);
-if (window.location.origin == 'http://debitoor-app.staging.e-conomic.ws' && typeof jQuery !== undefined) {
+if (window.location.origin == 'http://debitoor-app.staging.e-conomic.ws' && typeof jQuery !== "undefined") {
 	jQuery(document).ready(function() {
 
 		var $switcher = $('<div class="theme-switcher"><ul><li class="white"><div/></li><li class="dark"><div/></li></ul></div>');

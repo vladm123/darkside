@@ -1,4 +1,4 @@
-	if (window.location.origin == 'http://bho' && typeof jQuery !== undefined) {
+	if (window.location.origin == 'http://bho' && typeof jQuery !== "undefined") {
 		jQuery(document).ready(function() {
 			setTimeout(function() {
 				$('svg > rect').attr('fill', '#4c516b');
