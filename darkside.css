@@ -29,6 +29,7 @@
   .dark-theme .nav-wrap {
     background-color: #2e3243;
     border-right: 1px solid #3b3f53 !important;
+    transition: none;
   }
   
   .dark-theme .highcharts-background {
@@ -417,4 +418,99 @@
 	width: 20px;
 	height: 20px;
 	cursor: pointer;
+}
+
+.dark-theme .icn-svg-menu-dashboard-active {
+  background-image: url("http://media.mocku.ps/mockups/images/ec6baa90afb2c7e765779f2613bb2011ac53afb7.png");
+  background-position: 0 -59px;
+}
+
+.dark-theme .icn-svg-menu-dashboard {
+  background-image: url("http://media.mocku.ps/mockups/images/ec6baa90afb2c7e765779f2613bb2011ac53afb7.png");
+  background-position: 0 -38px;
+}
+
+.dark-theme .icn-svg-menu-invoices-active {
+  background-image: url("http://media.mocku.ps/mockups/images/ec6baa90afb2c7e765779f2613bb2011ac53afb7.png");
+  background-position: 0 -134px;
+}
+
+.dark-theme .icn-svg-menu-invoices {
+  background-image: url("http://media.mocku.ps/mockups/images/ec6baa90afb2c7e765779f2613bb2011ac53afb7.png");
+  background-position: 0 -116px;
+}
+
+.dark-theme .icn-svg-menu-expenses-active {
+  background-image: url("http://media.mocku.ps/mockups/images/ec6baa90afb2c7e765779f2613bb2011ac53afb7.png");
+  background-position: 0 -98px;
+}
+
+.dark-theme .icn-svg-menu-expenses {
+  background-image: url("http://media.mocku.ps/mockups/images/ec6baa90afb2c7e765779f2613bb2011ac53afb7.png");
+  background-position: 0 -80px;
+}
+
+.dark-theme .icn-svg-menu-payments-active {
+  background-image: url("http://media.mocku.ps/mockups/images/ec6baa90afb2c7e765779f2613bb2011ac53afb7.png");
+  background-position: 0 -164px;
+}
+
+.dark-theme .icn-svg-menu-payments {
+  background-image: url("http://media.mocku.ps/mockups/images/ec6baa90afb2c7e765779f2613bb2011ac53afb7.png");
+  background-position: 0 -152px;
+}
+
+.dark-theme .icn-svg-menu-reports-active {
+  background-image: url("http://media.mocku.ps/mockups/images/ec6baa90afb2c7e765779f2613bb2011ac53afb7.png");
+  background-position: 0 -230px;
+}
+
+.dark-theme .icn-svg-menu-reports {
+  background-image: url("http://media.mocku.ps/mockups/images/ec6baa90afb2c7e765779f2613bb2011ac53afb7.png");
+  background-position: 0 -210px;
+}
+
+.dark-theme .icn-svg-menu-customers-active {
+  background-image: url("http://media.mocku.ps/mockups/images/ec6baa90afb2c7e765779f2613bb2011ac53afb7.png");
+  background-position: 0 -19px;
+}
+
+.dark-theme .icn-svg-menu-customers {
+  background-image: url("http://media.mocku.ps/mockups/images/ec6baa90afb2c7e765779f2613bb2011ac53afb7.png");
+  background-position: 0 0px;
+}
+
+.dark-theme .icn-svg-menu-products-active {
+  background-image: url("http://media.mocku.ps/mockups/images/ec6baa90afb2c7e765779f2613bb2011ac53afb7.png");
+  background-position: 0 -193px;
+}
+
+.dark-theme .icn-svg-menu-products {
+  background-image: url("http://media.mocku.ps/mockups/images/ec6baa90afb2c7e765779f2613bb2011ac53afb7.png");
+  background-position: 0 -176px;
+}
+
+.dark-theme .icn-svg-menu-settings-active {
+  background-image: url("http://media.mocku.ps/mockups/images/ec6baa90afb2c7e765779f2613bb2011ac53afb7.png");
+  background-position: 0 -269px;
+}
+
+.dark-theme .icn-svg-menu-settings {
+  background-image: url("http://media.mocku.ps/mockups/images/d9a6ba4cbd58e17581ddfb4ff0d6c5721618a044.png");
+  background-position: 0 -250px;
+}
+
+.dark-theme .icn-svg-promote-mobile-apps {
+  background-image: url("http://media.mocku.ps/mockups/images/daaef3c0c9a64fa604f6f4784c28628ba4d293e4.png");
+  background-position: 0 0;
+}
+
+.dark-theme .icn-svg-promote-invite-friends {
+  background-image: url("http://media.mocku.ps/mockups/images/daaef3c0c9a64fa604f6f4784c28628ba4d293e4.png");
+  background-position: 0 -110px;
+}
+
+.dark-theme .icn-svg-dashboard-feedback {
+  background-image: url("http://media.mocku.ps/mockups/images/daaef3c0c9a64fa604f6f4784c28628ba4d293e4.png");
+  background-position: 0 -176px;
 }
